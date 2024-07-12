@@ -1,0 +1,118 @@
+*{
+    
+    box-sizing: border-box;
+}
+.box-1{
+    border-style: dotted;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#badc58,#eb4d4b);
+
+}
+.box-2{
+    width: 300px;
+    height: 300px;
+    background: repeating-linear-gradient(45deg,#e1b12c 0%,#e1b12c 10%,#192a56 10%,#192a56 20%);
+    margin-left: 300px;
+    border-style: solid;
+    
+
+    
+
+}
+.box-3{
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#1B9CFC,#6D214F);
+ 
+}
+.box-4{
+    width: 300px;
+    height: 300px;
+    background:repeating-radial-gradient(#2C3A47 0%,#2C3A47 10%,#BDC581 10%,#BDC581 20%);
+    margin-left: 300px;
+ 
+}
+.box-5{
+    width: 300px;
+    height: 300px;
+    background:conic-gradient(#3B3B98,#F8EFBA);
+    
+ 
+}
+.box-6{
+    width: 350px;
+    height: 350px;
+    background-image: url(https://images.pexels.com/photos/2101187/pexels-photo-2101187.jpeg?auto=compress&cs=tinysrgb&w=600);
+    margin-left: 300px;
+    background-repeat: no-repeat;
+    border-style: double;
+    border-width: 10px;
+    
+}
+.box-7{
+    width: 300px;
+    background-color:#FFFFFF;
+    box-shadow: 5px 5px 30px #2f3542;
+    border-radius: 5px;
+    padding: 10px 10px 10px ;
+
+}
+.box-7 .price span{
+    background-color: #6F1E51;
+    color: #fff;
+    padding: 5px 10px 5px 5px;
+    display: inline-block;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 5px;
+
+}
+.box-7 .img{
+    text-align: center;
+    padding: 10px;
+}
+.box-7 .contain h4 a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+}
+.box-7 ul li{
+    color: #666;
+}
+.box-7 .dis_price h4{
+    color: #ef4a23;
+    text-align: center;
+    font-size: 20px;
+}
+.box-7 .dis_price h4 span{
+    color: #666;
+    font-size: 15px;
+    text-decoration: line-through;
+    
+   
+}
+.btn-group button{
+    width: 100%;
+    padding: 10px;
+    border-color:#868282;
+    background-color:#fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+   
+    
+}
+.btn-group button:hover{
+    background-color: blue;
+    color: #fff;
+}
+
+    
+
+
+
+
